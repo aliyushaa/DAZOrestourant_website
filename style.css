@@ -1,0 +1,129 @@
+html {
+}
+
+body {
+    margin: 0;
+	background: #fafafa;
+    background-image: url(background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+    backdrop-filter: blur(4px)
+}
+
+
+.end {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px 15px;
+    bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header__left { 
+    margin-bottom: 40px;
+}
+
+.header__right {
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 40px;
+    background-color:#1D1D1D;
+}
+
+.intro {
+    padding: 10em 0 25em 0;
+}
+
+.intro__left {
+    font-size: 4rem;
+    color: #000000;
+}
+
+.intro__right {
+    padding: 0px 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Rosario', sans-serif;
+    color: #fafafa;
+}
+
+.nav__kazakh {
+	align-items: center;
+    margin-bottom: 80px;
+    
+    padding: 4px 10px;
+    background-color:#1D1D1D;
+}
+
+.nav__turkish {
+	align-items: center;
+    margin-bottom: 80px;
+
+    padding: 4px 10px;
+    background-color:#1D1D1D;
+}
+
+.nav__korean {
+	align-items: center;
+
+    padding: 4px 10px;
+    background-color:#1D1D1D;
+}
+
+.nav__link {
+    align-items: center;
+    font-family: 'Rosario', sans-serif;
+    color: #fafafa;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav__img {
+    height: 3rem;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+.slider {
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+}
+
+.slider__inner {
+    width: 100%;
+    max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px 60px;
+}
+
+.slider__title {
+    text-align: center;
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: #000000;
+}
